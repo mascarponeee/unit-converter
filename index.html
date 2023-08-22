@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Unit Convertor</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="top-section">
+        <h2 id="title">Metric/Imperial Unit Conversion</h2>
+        <input class="input-section" maxlength="10" type="text" value="20">
+      </div>
+      <div id="bottom-section">
+        <div class="unit-container">
+          <h4 class="unit-title">
+            Length (Meter/Feet)
+          </h4>
+          <p class="unit-calculation">
+            <span class="input-value">20</span> 
+            meters = <span id="meters-feet">65.616</span> feet | 
+            <span class="input-value">20</span>
+            feet = <span id="feet-meters">6.096</span> meters
+          </p>
+        </div>
+        <div class="unit-container">
+          <h4 class="unit-title">
+            Volume (Liters/Gallons)
+
+          </h4>
+          <p class="unit-calculation">
+            <span class="input-value">20</span> 
+            liters = <span id="liters-gallons">5.284</span> gallons | 
+            <span class="input-value">20</span> 
+            gallons = <span id="gallons-liters">75.708</span> liters
+          </p>
+        </div>
+        <div class="unit-container">
+          <h4 class="unit-title">
+            Mass (Kilograms/Pounds)
+          </h4>
+          <p class="unit-calculation">
+            <span class="input-value">20</span> 
+            kilos = <span id="kilos-pounds">44.092</span> pounds | 
+            <span class="input-value">20</span> 
+            pounds = <span id="pounds-kilos">9.072</span> kilos
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="mode-switch">
+      <img src="images/light-theme.svg" alt="light">
+    </button>
+
+
+
+
+    <script src="index.js"></script>
+  </body>
+  </html>
